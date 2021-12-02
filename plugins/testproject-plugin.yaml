@@ -1,0 +1,7 @@
+image: lyd1acla1r3/${project.artifactId}:${project.version}
+dbms: mysql
+healthCheckPath: "/management/health"
+roles:
+  - "testProject-admin"
+  - "conference-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
