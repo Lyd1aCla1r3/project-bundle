@@ -1,4 +1,4 @@
-image: lyd1acla1r3/${project.artifactId}:${project.version}
+image: lyd1acla1r3/test-project:0.0.1-SNAPSHOT
 dbms: mysql
 healthCheckPath: "/management/health"
 roles:
